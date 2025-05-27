@@ -4,8 +4,8 @@ public class EvenString {
         {
             for (String w : s.split(" ")){
                 // if length is even
-                if (w.length() % 2 == 0)
-                    System.out.println(w);
+                if (w.length() % 2 != 0)
+                    System.out.println(w +" - "+ w.length());
             }
         }
 
